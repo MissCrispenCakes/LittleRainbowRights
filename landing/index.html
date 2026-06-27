@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LittleRainbowRights — Who protects the digital child?</title>
+  <meta name="description" content="An open, auditable scorecard of how 194 countries govern AI, data, and the rights of children and LGBTQ+ communities — every score traceable to its source.">
+  <meta property="og:title" content="LittleRainbowRights — Who protects the digital child?">
+  <meta property="og:description" content="An open, auditable scorecard of AI policy, data protection, and the rights of children and LGBTQ+ communities across all 194 countries.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://littlerainbowrights.com">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌈</text></svg>">
+  <link rel="stylesheet" href="assets/landing.css">
+  <script src="https://cdn.plot.ly/plotly-2.27.0.min.js" defer></script>
+  <script src="assets/landing.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="nav">
+    <a class="brand" href="/">Little<span>Rainbow</span>Rights</a>
+    <nav>
+      <a href="https://grimdata.org/scorecard/explorer/">Explore</a>
+      <a href="https://grimdata.org/transparency-watch/">Transparency</a>
+      <a href="https://grimdata.org/scorecard/design/">Methodology</a>
+      <a class="ext" href="https://grimdata.org/">Docs ↗</a>
+    </nav>
+  </header>
+  <div class="rainbow-rule" aria-hidden="true"></div>
+
+  <main id="main">
+    <section class="hero">
+      <div class="hero-copy">
+        <h1>Who protects the&nbsp;digital&nbsp;child?</h1>
+        <p class="lede">
+          <strong>LittleRainbowRights</strong> is an open, auditable scorecard of how
+          <strong>194 countries</strong> govern AI, data, and the rights of children and
+          LGBTQ+ communities — every score traceable to its source.
+        </p>
+        <div class="cta">
+          <a class="btn btn-primary" href="https://grimdata.org/scorecard/explorer/">Explore the data →</a>
+          <a class="btn btn-ghost" href="https://grimdata.org/transparency-watch/">Transparency Watch</a>
+        </div>
+      </div>
+      <figure class="hero-map">
+        <div id="hero-map" role="img" aria-label="World map of digital-rights protection scores by country"></div>
+        <figcaption id="hero-map-cap">Protection Score (0–20) by country — higher is stronger. Tap a country to explore.</figcaption>
+      </figure>
+    </section>
+
+    <section class="stats" aria-label="At a glance">
+      <div><b id="stat-countries">194</b><span>countries</span></div>
+      <div><b id="stat-indicators">10</b><span>indicators</span></div>
+      <div><b>2,543</b><span>validated sources</span></div>
+      <div><b>Open</b><span>&amp; reproducible</span></div>
+    </section>
+
+    <section class="cards" aria-label="What you can do">
+      <a class="card" href="https://grimdata.org/scorecard/visualization/">
+        <h3>🗺️ The Scorecard</h3>
+        <p>Choropleth map and indicator charts across all 194 countries — AI policy, data protection, LGBTQ+ legal status, child online protection, and more.</p>
+        <span class="more">View the map →</span>
+      </a>
+      <a class="card" href="https://grimdata.org/scorecard/explorer/">
+        <h3>🔍 Data Explorer</h3>
+        <p>Filter, search, sort, and compare countries — with a per-country breakdown of every indicator, its justification, and its sources.</p>
+        <span class="more">Open the explorer →</span>
+      </a>
+      <a class="card" href="https://grimdata.org/transparency-watch/">
+        <h3>🛰️ Transparency Watch</h3>
+        <p>Are peer institutions opening their data? We track when sources adopt — or withdraw — open access to the primary documents behind these rights.</p>
+        <span class="more">See the timeline →</span>
+      </a>
+    </section>
+
+    <section class="about">
+      <h2>Auditing the conditions for a flourishing digital childhood</h2>
+      <p>
+        AI and data systems increasingly shape childhood — sometimes expanding autonomy and
+        expression, just as often automating surveillance and coercive control. Assessing the
+        stakes takes more than asking <em>who has</em> AI; it takes auditable evidence about the
+        legal and institutional conditions under which it operates.
+      </p>
+      <p>
+        LittleRainbowRights / GRIMdata treats rights monitoring as <strong>infrastructure</strong>:
+        an open, reproducible pipeline that links every indicator to its evidence, scores on a
+        deliberately coarse 0–2 scale to avoid false precision, and publishes with care for
+        child- and SOGI-sensitive contexts.
+      </p>
+      <p class="note">
+        Point-in-time, indicative data — verify sources before citing. Higher scores indicate
+        stronger protections, not endorsement of any government.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="foot-links">
+      <a href="https://grimdata.org/">Full documentation</a>
+      <a href="https://github.com/MissCrispenCakes/DigitalChild">GitHub</a>
+      <a href="https://doi.org/10.5281/zenodo.18318098">Cite (Zenodo DOI)</a>
+      <a href="https://grimdata.org/scorecard/data-access/">Get the data</a>
+    </div>
+    <p class="legal">
+      © <span id="year">2026</span> Vollmer &amp; Vollmer · Code MIT · Data CC&nbsp;BY&nbsp;4.0 ·
+      A <a href="https://grimdata.org/">GRIMdata</a> project
+    </p>
+  </footer>
+</body>
+</html>
