@@ -90,7 +90,7 @@ a { color: var(--primary-ink); }
 /* About */
 .about { max-width: 720px; margin: 2.5rem auto; padding: 0 1.25rem; }
 .about h2 { font-size: 1.5rem; letter-spacing: -.02em; }
-.about p { color: #34343f; }
+.about p { color: #b2b2c0; } /*34343f*/
 .about .note { font-size: .85rem; color: var(--muted); border-left: 3px solid var(--line); padding-left: .9rem; }
 
 /* Footer */
